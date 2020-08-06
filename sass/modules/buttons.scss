@@ -1,0 +1,44 @@
+a, button {
+ text-decoration: none;
+ outline: none;
+ box-shadow: none;
+ border: none;
+ background: none;
+}
+
+.bc-btn {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    background-color: $c-blue;
+    min-height: 60px;
+    color: #fff;
+    padding: 15px 40px;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    transition: background-color .2s;
+
+    @media (max-width: 767px) {
+        padding: 15px;
+        width: 100%;
+    }
+
+    &:hover {
+        background-color: $c-blue-hover;
+    }
+
+    &--light {
+        background-color: $c-sky-blue;
+        &:hover {
+            background-color: $c-sky-blue-hover;
+        }
+    }
+}
+
+.bc-icon-link {
+    transition: .2s;
+    &:hover {
+        opacity: 0.5;
+    }
+}

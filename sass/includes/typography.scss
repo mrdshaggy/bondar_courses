@@ -1,0 +1,61 @@
+html, body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  color: $c-black;
+}
+
+h1, .h1 {
+  font-size: 58px;
+  line-height: 1;
+  font-weight: 700;
+  @media (max-width: 991px) {
+    font-size: 40px;
+    line-height: 49px;
+  }
+}
+
+h2, .h2 {
+  font-size: 32px;
+  line-height: 39px;
+  font-weight: 700;
+  @media (max-width: 991px) {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+h3, .h3 {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 500;
+}
+
+.text-default {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+
+
+
+// Alignment
+.text-left           { text-align: left; }
+.text-right          { text-align: right; }
+.text-center         { text-align: center; }
+.text-justify        { text-align: justify; }
+.text-nowrap         { white-space: nowrap; }
+
+// Transformation
+.text-lowercase      { text-transform: lowercase; }
+.text-uppercase      { text-transform: uppercase; }
+.text-capitalize     { text-transform: capitalize; }
+
+// Colors
+.text-light-blue     { color: $c-light-blue; }
+
+// Weight
+.text-bold, strong, b   { font-weight: 700; }
+.text-semibold          { font-weight: 600; }

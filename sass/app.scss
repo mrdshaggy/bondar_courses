@@ -1,0 +1,22 @@
+@import 'utils/mixins';
+
+@import 'includes/reset';
+@import 'includes/fonts';
+@import 'includes/variables';
+@import 'includes/typography';
+@import 'includes/general';
+
+@import 'modules/buttons';
+@import 'modules/card';
+
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/section';
+@import 'layout/about';
+@import 'layout/teacher';
+@import 'layout/effect';
+@import 'layout/plan';
+@import 'layout/scedule';
+@import 'layout/feedbacks';
+@import 'layout/impression';
+@import 'layout/faq';
