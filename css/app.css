@@ -481,7 +481,7 @@ a, button {
     margin-bottom: 10px; }
 
 .bc-header {
-  background-image: url("../../img/header-background.jpg");
+  background-image: url("../img/header-background.jpg");
   background-repeat: no-repeat;
   background-position: left top;
   background-size: 100% 760px;
@@ -852,7 +852,7 @@ a, button {
         left: 20px;
         width: 36px;
         height: 30px;
-        background-image: url(../../img/quote_icon.svg);
+        background-image: url(../img/quote_icon.svg);
         background-position: center;
         background-size: cover; }
       .bc-feedbacks-list .bc-feedback__text:after {
@@ -941,7 +941,7 @@ a, button {
     position: absolute;
     top: 45px;
     left: 35px;
-    background-image: url(../../img/arrow.svg);
+    background-image: url(../img/arrow.svg);
     width: 16px;
     height: 10px;
     background-size: cover;
